@@ -1,7 +1,8 @@
 ## 引入
 ```
 dependencies:
-  flutter_verification_box: ^1.0.3
+  flutter_verification_box:
+    git: https://github.com/2673542667/flutter_verification_box.git
 ```
 导入包：
 ```
