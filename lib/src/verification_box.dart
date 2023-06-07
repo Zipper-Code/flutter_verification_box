@@ -10,7 +10,8 @@ import 'package:flutter_verification_box/src/verification_box_item.dart';
 ///
 class VerificationBox extends StatefulWidget {
   VerificationBox(
-      {this.count = 6,
+      {Key key,
+      this.count = 6,
       this.itemWidget = 45,
       this.onSubmitted,
       this.type = VerificationBoxItemType.box,
